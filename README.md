@@ -9,5 +9,5 @@ Code used to produce forward trajectories to confirm SVCs were tilted by, and be
 filter.py : 
 Code used to filter the backwards trajectories before they can be used in the budget.py code.
 
-budget.py : 
+budget32.py : 
 Code used to calculate streamwise, crosswise, and vertical vorticity and the forcing terms along a trajectory. The forcing terms at each time step are saved in a .npy file for each term.
